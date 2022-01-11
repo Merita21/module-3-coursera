@@ -1,16 +1,4 @@
-/*
-===========================
-CONTENTS:
-01 General
-02 Typography
-03 Navbar
-04 section
-===========================
-*/
-
-/* =========================================================
-01. General
-============================================================ */
+/*General*/
 body,
 html {
 	width: 100%;
@@ -19,9 +7,7 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
-/* =========================================================
-02. Typography
-============================================================ */
+ /*Typography*/
 @import url('https://fonts.googleapis.com/css?family=Lato|Mina');
 p {
 	line-height: 1.6em;
@@ -42,21 +28,15 @@ h2 {
 	font-size: 30px;
 	margin-bottom: 20px;
 }
-
-/* =========================================================
-03. Navbar
-============================================================ */
+/*navbar*/
 .navbar-brand{
    font-family: 'Mina', sans-serif;
    font-size: 28pt;
 
 }
 
-/* =========================================================
-03. Sections
-============================================================ */
-#chicken{
-    background-image: url(../img/kirsty-tg-146655-unsplash.png);
+/*  /*Sections*/
+/*#chicken{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,7 +46,6 @@ h2 {
     -o-background-size: cover;
 }
 #beef{
-    background-image: url(../img/james-sutton-198306-unsplash1.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -76,7 +55,6 @@ h2 {
     -o-background-size: cover;
 }
 #sushi{
-    background-image: url(../img/j-329172-unsplash.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -84,10 +62,9 @@ h2 {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-}
+}*/
 
 .text-justify.bg-dark.p-2{
     opacity: 0.6;
 }
 
-/*end style*/
